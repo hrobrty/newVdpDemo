@@ -36,6 +36,7 @@ LinphoneCall *call;
      linphone_core_set_native_video_window_id([LinphoneManager getLc], (unsigned long)_videoView);
     
     // 分支测试branch
+    // 在release分支上开出分支feat/ble_dev开发蓝牙
     _username.delegate = self;
     _username.returnKeyType = UIReturnKeyDone;
     _password.delegate = self;
