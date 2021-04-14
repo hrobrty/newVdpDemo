@@ -38,6 +38,7 @@ LinphoneCall *call;
     // 分支测试branch
     // 在release分支上开出分支feat/ble_dev开发蓝牙
     // 版本v1.0.0 后续开发操作
+    // 新的工作开始了
     _username.delegate = self;
     _username.returnKeyType = UIReturnKeyDone;
     _password.delegate = self;
